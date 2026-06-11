@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Loops</h1>
+<h2>The for Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+const numero = ["1","2","3","4","5","6","7","8","9","10"];
+let len = numero.length;
+
+let text = "";
+for (let i = 0; i < len; i++) {
+  text += numero[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
